@@ -1,10 +1,11 @@
 <template>
-<div class="pt-5"></div>
-<div class="container pt-5">
-    <h2><b>Contact ME</b></h2>
-    <div class="row pt-5 border">
-        <div class="col-6 mt-5 mb-5 border w-50">
-           <form>
+<div class="pt-5 pb-5"></div>
+<div class="container rounded shadow-5-strong border pt-4 bg-light">
+    <h2><u>Contact ME</u></h2>
+    <div class="row border-top pt-5 mb-5">
+        <div class="col-6  border-end">
+          <h3>message</h3>
+            <form class="pt-5 mb-5">
               <!-- Name input -->
               <MDBInput
                 type="text"
@@ -39,37 +40,8 @@
               
             </form> 
         </div>
-        <div class="col-6 mb-5">
-          <MDBCard>
-            <MDBCardHeader>Featured</MDBCardHeader>
-            <MDBCardBody>
-              <MDBCardTitle>Special title treatment</MDBCardTitle>
-              <MDBCardText>
-
-              </MDBCardText>
-              <MDBBtn tag="a" href="#!" color="primary">Go somewhere</MDBBtn>
-            </MDBCardBody>
-          </MDBCard>
-          <MDBCard>
-            <MDBCardHeader>Featured</MDBCardHeader>
-            <MDBCardBody>
-              <MDBCardTitle>Special title treatment</MDBCardTitle>
-              <MDBCardText>
-                
-              </MDBCardText>
-              <MDBBtn tag="a" href="#!" color="primary">Go somewhere</MDBBtn>
-            </MDBCardBody>
-          </MDBCard>
-          <MDBCard>
-            <MDBCardHeader>Featured</MDBCardHeader>
-            <MDBCardBody>
-              <MDBCardTitle>Special title treatment</MDBCardTitle>
-              <MDBCardText>
-                
-              </MDBCardText>
-              <MDBBtn tag="a" href="#!" color="primary">Go somewhere</MDBBtn>
-            </MDBCardBody>
-          </MDBCard>
+        <div class="col-6 ">
+          
         </div>
     </div>
 </div>

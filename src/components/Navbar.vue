@@ -18,6 +18,9 @@
         <MDBNavbarItem router-link :to="{name: 'About'}">
           About
         </MDBNavbarItem>
+        <MDBNavbarItem router-link :to="{name: 'Resume'}">
+          Resume
+        </MDBNavbarItem>
       </MDBNavbarNav>
       <MDBNavbarNav>
         <MDBNavbarItem router-link :to="{name: 'Projects'}">
@@ -26,22 +29,12 @@
         <MDBNavbarItem router-link :to="{name: 'Testimonials'}">
           Testimonials
         </MDBNavbarItem>
+      </MDBNavbarNav>
+      <MDBNavbarNav>
         <MDBNavbarItem router-link :to="{name: 'Contact'}">
           Contact
         </MDBNavbarItem>
       </MDBNavbarNav>
-      <!-- Search form -->
-      <!-- <form class="d-flex input-group w-auto">
-        <input
-          type="search"
-          class="form-control"
-          placeholder="Type query"
-          aria-label="Search"
-        />
-        <MDBBtn outline="primary">
-          Search
-        </MDBBtn>
-      </form> -->
     </MDBCollapse>
   </MDBNavbar>
 </template>
