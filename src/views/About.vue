@@ -2,46 +2,66 @@
 <div class="pt-5 pb-5">
 
 </div>
-<div class="container rounded shadow-5-strong border pt-4 pb-4 mb-5 bg-light">
-  <h2><u>About Me</u></h2>
+<div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light animate__animated animate__backInRight">
+  <h2><u>About</u></h2>
   <div class="row border-top pb-2">
     <div class="col-6 pt-4">
         <img :src="require('@/assets/landing/hero_img.jpg')" alt="About.Img" srcset="" class="img-fluid rounded">
     </div>
     <div class="col pt-4">
-      <h3><u>head</u></h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, iste nesciunt. Voluptatibus pariatur esse perspiciatis qui illum nesciunt minus quaerat inventore, autem a maxime consectetur assumenda unde sint natus fugit.</p>
-      <h3><u>head</u></h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, iste nesciunt. Voluptatibus pariatur esse perspiciatis qui illum nesciunt minus quaerat inventore, autem a maxime consectetur assumenda unde sint natus fugit.</p>
+      <h3><u>A little about me</u></h3>
+      <p>Hello, I'm Ubaidullah. A web designer from Cape Town. I am a very hard-working and trustworthy person. I am a team player and can follow instructors to the point.</p>
+      <h3><u>Why coding?</u></h3>
+      <p>My passion for coding comes from the satisfaction of seeing something that I built, and it is functioning.</p>
       <br>
       <div class="row">
-        <div class="col-6">
-          <h4><u>details</u></h4>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        <div class="row">
+          <h4><u>Hobbies</u></h4>
+          <div class="col text-muted"><i class="fas fa-code"></i> Coding</div>
+          <div class="col text-muted"><i class="fas fa-gamepad"></i> Gaming</div>
+          <div class="col text-muted"><i class="fas fa-hiking"></i> Hikking</div>
+          <div class="col text-muted"><i class="fas fa-bookmark"></i> Reading</div>
         </div>
-        <div class="col-6">
-          <h4><u>hobbies</u></h4>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+        
+        <div class="row pt-5">
+          <h4><u>Details</u></h4>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-calendar"></i>
+            Birth date:
+            <p class="text-muted">27 May 2000</p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-house"></i>
+            Residence:
+            <p class="text-muted">Cape town, South Africa</p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-envelope"></i>
+            E-mail:
+            <p class="text-muted">ubaidbreda@gmail.com</p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-mobile"></i>  
+            Phone:
+            <p class="text-muted">+27 67 839 8557</p>
+          </div>
+          <div class="col-lg-4">
+            <i class="fa-solid fa-person-digging"></i>
+            Freelance:
+            <p class="text-muted">Available</p>
+          </div>
         </div>
       </div>
       <br>
-      <MDBBtn color="dark" size="lg">Download CV</MDBBtn>
+      <!-- <MDBBtn color="dark" size="lg">Download CV</MDBBtn> -->
     </div>
     
   </div>
 </div>
 
 <!-- Skills -->
-<div class="container rounded shadow-5-strong border pt-4 mb-4 bg-light">
-    <h2>Skills</h2>
+<div class="container rounded shadow-5-strong border pt-4 mb-4 bg-light animate__animated animate__backInLeft animate__delay-2s">
+    <h2><u>Skills</u></h2>
     <div class="row border-top pb-2">
       <div class="col-xl-3 col-sm-6 col-12 mb-4">
         <div class="card">

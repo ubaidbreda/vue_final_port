@@ -1,7 +1,7 @@
 <template>
   <div class="home container pt-5 mt-5">
     <div class="row">
-      <div class="col">
+      <div class="col animate__animated animate__backInDown">
         <h2>Hi my name is</h2>
         <h1>Ubaidullah Breda</h1>
         <h2>An aspiring web developer and UI designer</h2>
