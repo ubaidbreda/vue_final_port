@@ -4,7 +4,7 @@
       <div class="col">
         <h2>Hi my name is</h2>
         <h1>Ubaidullah Breda</h1>
-        <h2>An aspirering web developer and UI designer</h2>
+        <h2>An aspiring web developer and UI designer</h2>
       </div>
     </div>
   </div>
