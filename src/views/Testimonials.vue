@@ -2,7 +2,7 @@
 <div class="pt-5 pb-5">
 
 </div>
-<div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light">
+<div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light animate__animated animate__fadeIn">
     <h2><u>Testimonials</u></h2>
     <div class="row border-top pb-2">
         <div class="col-4">

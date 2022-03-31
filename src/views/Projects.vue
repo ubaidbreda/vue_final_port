@@ -71,9 +71,6 @@
                     <div class="chip me-0"><i class="fa-brands fa-css3"></i></div>
                   </li>
                   <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-bootstrap"></i></div>
-                  </li>
-                  <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
                   </li>
                 </ul>
@@ -107,12 +104,6 @@
                   <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-css3"></i></div>
                   </li>
-                  <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-bootstrap"></i></div>
-                  </li>
-                  <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
-                  </li>
                 </ul>
             </div>
           </div>
@@ -130,7 +121,7 @@
                 <p>
                     <MDBBtnGroup>
                         <MDBBtn tag="a" href="#!" target="_blank" color="dark">live</MDBBtn>
-                        <MDBBtn tag="a" href="#!" target="_blank" color="dark">Github</MDBBtn>
+                        <MDBBtn tag="a" href="https://github.com/SekoM1/perfume_pos" target="_blank" color="dark">Github</MDBBtn>
                     </MDBBtnGroup>
                 </p>
               </div>
@@ -141,13 +132,10 @@
             <div class="px-md-1">
                 <ul class="list-unstyled list-inline d-flex justify-content-between">
                   <li class="list-inline-item me-0">
+                    <div class="chip me-0"><i class="fa-brands fa-vuejs"></i></div>
+                  </li>
+                  <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-html5"></i></div>
-                  </li>
-                  <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-css3"></i></div>
-                  </li>
-                  <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-bootstrap"></i></div>
                   </li>
                   <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
@@ -254,13 +242,13 @@
             <div class="px-md-1">
                 <ul class="list-unstyled list-inline d-flex justify-content-between">
                   <li class="list-inline-item me-0">
+                    <div class="chip me-0"><i class="fa-brands fa-vuejs"></i></div>
+                  </li>
+                  <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-html5"></i></div>
                   </li>
                   <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-css3"></i></div>
-                  </li>
-                  <li class="list-inline-item me-0">
-                    <div class="chip me-0"><i class="fa-brands fa-bootstrap"></i></div>
+                    <div class="chip me-0"><i class="fa-brands fa-mdb"></i></div>
                   </li>
                   <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-js"></i></div>

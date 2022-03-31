@@ -1,7 +1,7 @@
 <template>
 <div class="pt-5 pb-5"></div>
 
-<div class="container rounded shadow-5-strong border pt-4 bg-light">
+<div class="container rounded shadow-5-strong border pt-4 bg-light animate__animated animate__fadeIn">
     <h2><u>Contact ME</u></h2>
     <div class="row border-top pt-5 mb-4">
       <div class="row pb-5">
