@@ -4,10 +4,10 @@
 </div>
 
 <!-- Work and Education -->
-<div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light">
+<div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light animate__animated animate__rollIn">
     <h2><u>Work and Education</u></h2>
     <div class="row border-top pb-2">
-        <div class="row pt-4 pb-4 exp">
+        <div class="row pt-4 pb-4 exp animate__animated animate__rotateInUpRight animate__delay-1s">
             <div class="col-md-6">
               <div class="row">
                 <div class="col-md-5 iconExp mb-3">
@@ -24,14 +24,14 @@
 
             <div class="col-lg-6">
               <p class="text-muted">
-                Worked part-time as a counter hand and ocasional manager, duties was to
+                Worked part-time as a counter hand and ocasional manager, at a small buisness. Duties was to
                 assist customers and stock taking.
               </p>
             </div>
           </div>
 
 
-          <div class="row pt-4 pb-4 exp">
+          <div class="row pt-4 pb-4 exp animate__animated animate__rotateInUpLeft animate__delay-1s">
             <div class="col-md-6">
               <div class="row">
                 <div class="col-md-5 iconExp mb-3">
@@ -54,7 +54,7 @@
           </div>
 
 
-          <div class="row pt-4 pb-4 exp">
+          <div class="row pt-4 pb-4 exp animate__animated animate__rotateInUpRight animate__delay-1s">
             <div class="col-md-6">
               <div class="row">
                 <div class="col-md-5 iconExp mb-3">
@@ -75,7 +75,7 @@
           </div>
 
 
-          <div class="row pt-4 pb-4 exp">
+          <div class="row pt-4 pb-4 exp animate__animated animate__rotateInUpLeft animate__delay-1s">
             <div class="col-md-6">
               <div class="row">
                 <div class="col-md-5 iconExp mb-3">

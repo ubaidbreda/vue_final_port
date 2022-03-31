@@ -1,15 +1,60 @@
 <template>
 <div class="pt-5 pb-5"></div>
+
 <div class="container rounded shadow-5-strong border pt-4 bg-light">
     <h2><u>Contact ME</u></h2>
-    <div class="row border-top pt-5 mb-5">
-        <div class="col-6  border-end">
-          <h3>message</h3>
-            <form class="pt-5 mb-5">
+    <div class="row border-top pt-5 mb-4">
+      <div class="row pb-5">
+          <h4><u>Connect with me</u></h4>
+          <div class="pt-3 row">
+            <a 
+              id="connect"
+              class="col-4"
+              href="https://github.com/bredau00"
+              target="_blank"
+              >
+              <i class="fa-brands fa-github"></i>
+              Github:
+              <p class="text-muted">bredau00</p>
+            </a>
+            <a 
+              id="connect"
+              class="col-4"
+              href="https://www.linkedin.com/in/ubaidullah-breda-356a03224/"
+              target="_blank"
+              >
+              <i class="fa-brands fa-linkedin"></i>
+              LinkedIn:
+              <p class="text-muted">Ubaidullahbreda</p>
+            </a>
+            <a 
+              
+              id="connect"
+              class="col-4"
+              href="https://codepen.io/bredau00"
+              target="_blank"
+              >
+              <i class="fa-brands fa-codepen"></i>
+              CodePen:
+              <p class="text-muted">bredau00</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-6 border-end">
+            <h4><u>Message me</u></h4>
+            <form 
+              class="pt-5 mb-5"
+              action="https://formspree.io/f/xleakvqo"
+              method="POST"
+              enctype="multipart/form-data"
+            >
               <!-- Name input -->
               <MDBInput
                 type="text"
                 label="Name"
+                name="name"
                 id="form4Name"
                 v-model="Name"
                 wrapperClass="mb-4"
@@ -20,6 +65,7 @@
                 type="email"
                 label="Email address"
                 id="form4Email"
+                name="email"
                 v-model="Email"
                 wrapperClass="mb-4"
               />
@@ -30,18 +76,69 @@
                 id="form4Textarea"
                 v-model="Message"
                 wrapperClass="mb-4"
+                name=""
               />
             
               <!-- Submit button -->
               <MDBBtnGroup>
                 <MDBBtn color="dark" size="lg" type="reset"> reset </MDBBtn>
-                <MDBBtn color="dark" size="lg" type="submit"> Send </MDBBtn>
+                <MDBBtn color="dark" size="lg" type="submit" target="_blank"> Send </MDBBtn>
               </MDBBtnGroup>
               
             </form> 
-        </div>
-        <div class="col-6 ">
-          
+          </div>
+          <div class="col-6">
+            <div class="row pt-3 pb-2">
+              <div class="col-xl-12 col-sm-12 col-12 mb-4">
+                <div class="card" id="connect">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div class="align-self-center">
+                        <i class="fa-solid fa-at fa-3x"></i>
+                      </div>
+                      <div>
+                        <h3>ubaidbreda@gmail.com</h3>
+                        <p></p>
+                        <p class="mb-0"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12 col-sm-12 col-12 mb-4">
+                <div class="card" id="connect">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div class="align-self-center">
+                        <i class="fa-solid fa-mobile fa-3x"></i>
+                      </div>
+                      <div>
+                        <h3>067 839 8557</h3>
+                        <p></p>
+                        <p class="mb-0"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-12 col-sm-12 col-12 mb-4">
+                <div class="card" id="connect">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between px-md-1">
+                      <div class="align-self-center">
+                        <i class="fa-solid fa-location-dot fa-3x"></i>
+                      </div>
+                      <div>
+                        <h3>Cape Town, Mitchells Plein</h3>
+                        <p></p>
+                        <p class="mb-0"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 </div>
@@ -51,7 +148,7 @@
 import {
     MDBInput,
     MDBCheckbox,
-    MDBBtn,
+    MDBBtn, 
     MDBTextarea,
     MDBBtnGroup,
     MDBCard,
@@ -92,30 +189,18 @@ import { ref } from "vue";
         message,
       };
     },
-//     methods: {
-//     handleSubmit() {
-//       fetch("https://eccomerce-backend.herokuapp.com/contact", {
-//         method: "POST",
-//         body: JSON.stringify({
-//           name: this.name,
-//           email: this.email,
-//           message: this.message,
-//         }),
-//         headers: {
-//           "Content-type": "application/json; charset=UTF-8",
-//         },
-//       })
-//         .then((res) => res.json())
-//         .then((data) => {
-//           (this.contact = data),
-//           alert("message sent");
-//           })
-//         .catch((err) => console.log(err.message));
-//     },
-//   },
   };
 </script>
 
 <style>
+#connect:hover {
+    transform: scale(1.03);
+    /* background-color: #31313a; */
+    color: black;
+}
+
+a {
+  color: black;
+}
 
 </style>

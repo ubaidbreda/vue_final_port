@@ -72,9 +72,10 @@
                                 alt="woman avatar">
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="card-title font-weight-bold">Martha Smith</h4>
+                            <h4 class="card-title font-weight-bold">Mugammad Breda</h4>
+                            <p>Peer</p>
                             <hr>
-                            <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                            <p><i class="fas fa-quote-left"></i> Ubaidullah has the potential to do great things. He is a team player and gets along well with his colleagues.</p>
                         </div>
                     </div>
                 </section>
@@ -90,9 +91,10 @@
                                 alt="woman avatar">
                         </div>
                         <div class="card-body text-center">
-                            <h4 class="card-title font-weight-bold">Martha Smith</h4>
+                            <h4 class="card-title font-weight-bold">M.Yaasien Salaam</h4>
+                            <p>Peer</p>
                             <hr>
-                            <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                            <p><i class="fas fa-quote-left"></i> Ubaidullah is a hardworking individual,  always paying attention to detail, always there to lend a helping hand when he can and a great addition to any team.</p>
                         </div>
                     </div>
                 </section>
