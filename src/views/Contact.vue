@@ -5,7 +5,7 @@
     <h2><u>Contact ME</u></h2>
     <div class="row border-top pt-5 mb-4">
       <div class="row pb-5">
-          <h4><u>Connect with me</u></h4>
+          
           <div class="pt-3 row">
             <a 
               id="connect"
@@ -40,8 +40,8 @@
             </a>
           </div>
         </div>
-
-        <div class="row">
+        <h4><u>Connect with me</u></h4>
+        <div class="row pt-3">
           <div class="col-6 border-end">
             <h4><u>Message me</u></h4>
             <form 
@@ -97,9 +97,8 @@
                         <i class="fa-solid fa-at fa-3x"></i>
                       </div>
                       <div>
-                        <h3>ubaidbreda@gmail.com</h3>
-                        <p></p>
-                        <p class="mb-0"></p>
+                        <h4>Email:</h4>
+                        <p class="text-muted mb-0">ubaidbreda@gmail.com</p>
                       </div>
                     </div>
                   </div>
@@ -113,9 +112,8 @@
                         <i class="fa-solid fa-mobile fa-3x"></i>
                       </div>
                       <div>
-                        <h3>067 839 8557</h3>
-                        <p></p>
-                        <p class="mb-0"></p>
+                        <h4>Phone:</h4>
+                        <p class="mb-0">067 839 8557</p>
                       </div>
                     </div>
                   </div>
@@ -129,9 +127,8 @@
                         <i class="fa-solid fa-location-dot fa-3x"></i>
                       </div>
                       <div>
-                        <h3>Cape Town, Mitchells Plein</h3>
-                        <p></p>
-                        <p class="mb-0"></p>
+                        <h4>Location:</h4>
+                        <p class="text-muted mb-0">Cape Town, Mitchells Plein</p>
                       </div>
                     </div>
                   </div>

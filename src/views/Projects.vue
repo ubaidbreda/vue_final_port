@@ -3,7 +3,7 @@
     
 </div>
 
-<!-- Work and Education -->
+<!-- Projects -->
 <div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light animate__animated animate__fadeIn">
     <h2><u>Projects</u></h2>
     <div class="row border-top pt-3 pb-2">
@@ -249,6 +249,12 @@
                   </li>
                   <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-mdb"></i></div>
+                  </li>
+                  <li class="list-inline-item me-0">
+                    <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
+                  </li>
+                  <li class="list-inline-item me-0">
+                    <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
                   </li>
                   <li class="list-inline-item me-0">
                     <div class="chip me-0"><i class="fa-brands fa-js"></i></div>
