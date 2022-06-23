@@ -128,7 +128,7 @@
                       </div>
                       <div>
                         <h4>Location:</h4>
-                        <p class="text-muted mb-0">Cape Town, Mitchells Plein</p>
+                        <p class="text-muted mb-0">Cape Town, Mitchells Plain</p>
                       </div>
                     </div>
                   </div>
