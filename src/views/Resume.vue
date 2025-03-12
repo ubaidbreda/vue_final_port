@@ -5,7 +5,7 @@
 
 <!-- Work and Education -->
 <div class="container rounded shadow-5-strong border pt-4 mb-5 bg-light animate__animated animate__rollIn">
-    <h2><u>Work and Education</u></h2>
+    <h2><u>Work and education</u></h2>
     <div class="row border-top pb-2">
         <div class="row pt-4 pb-4 exp animate__animated animate__rotateInUpRight animate__delay-1s">
             <div class="col-md-6">
